@@ -1,0 +1,27 @@
+# Suckless Youtube - Firefox extention
+
+## Idea pipeline
+- UI button which lets you start download
+    - HTML & JS
+    - Web socket
+        -> Start download
+        <- Status of current download
+        - Queue
+    - youtube-dl backend
+    - opens in a player
+        - VLC
+            - python-vlc
+
+## Two components
+
+### Firefox extension
+
+- Hooks Youtube's UI
+- Monitors downloads from backend
+
+
+### Backend
+
+- Python script
+- Handles download(s)
+- Communicates progress
